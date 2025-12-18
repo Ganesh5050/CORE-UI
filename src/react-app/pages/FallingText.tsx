@@ -16,7 +16,7 @@ const FallingTextPreview = ({
     <div className="w-full h-[350px] relative">
       <FallingTextComponent
         key={`${trigger}-${gravity}-${mouseConstraintStiffness}`}
-        text="React Bits is a library of animated and interactive React components designed to streamline UI development and simplify your workflow."
+        text="Core UI is a library of animated and interactive React components designed to streamline UI development and simplify your workflow."
         highlightWords={["React", "Bits", "animated", "components", "simplify"]}
         highlightClass="highlighted"
         trigger={trigger}

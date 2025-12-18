@@ -10,7 +10,7 @@ const ScrollVelocityPreview = ({
   return (
     <div className="h-96 flex flex-col items-center justify-center overflow-hidden bg-gradient-to-b from-transparent via-purple-500/10 to-transparent">
       <ScrollVelocityComponent
-        texts={['React Bits', 'Scroll Down']}
+        texts={['Core UI', 'Scroll Down']}
         velocity={velocity}
         className="text-white/80"
       />

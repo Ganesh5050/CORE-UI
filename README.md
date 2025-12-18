@@ -8,6 +8,11 @@
   <strong>An open-source collection of 110+ high-quality, animated, interactive & fully customizable React components for building stunning, memorable user interfaces.</strong>
 </p>
 
+<p align="center">
+  <a href="https://core-ui-three.vercel.app/">🌐 Live Demo</a> •
+  <a href="https://github.com/Ganesh5050/CORE-UI">⭐ GitHub</a>
+</p>
+
 ---
 
 ## ✨ Features
@@ -39,7 +44,7 @@ npm run dev
 
 ### Usage
 
-Visit `http://localhost:5173` to browse the component library. Each component comes with:
+Visit `http://localhost:5173` or the [Live Demo](https://core-ui-three.vercel.app/) to browse the component library. Each component comes with:
 - Live interactive preview
 - Customization controls
 - Copy-paste code examples

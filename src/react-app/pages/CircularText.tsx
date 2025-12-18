@@ -3,14 +3,14 @@ import { motion } from 'framer-motion';
 import ComponentDetail from './ComponentDetail';
 import Slider from '../components/Slider';
 
-const CircularTextPreview = ({ 
+const CircularTextPreview = ({
   spinDuration = 20,
   onHover = 'speedUp'
 }: {
   spinDuration?: number;
   onHover?: 'slowDown' | 'speedUp' | 'pause' | 'goBonkers';
 }) => {
-  const text = "REACT*BITS*COMPONENTS*";
+  const text = "CORE*UI*COMPONENTS*";
   const letters = Array.from(text);
 
   return (
@@ -25,10 +25,10 @@ const CircularTextPreview = ({
         }}
         whileHover={
           onHover === 'speedUp' ? { transition: { duration: spinDuration / 4 } } :
-          onHover === 'slowDown' ? { transition: { duration: spinDuration * 2 } } :
-          onHover === 'pause' ? { rotate: 0 } :
-          onHover === 'goBonkers' ? { scale: 0.8, transition: { duration: spinDuration / 20 } } :
-          {}
+            onHover === 'slowDown' ? { transition: { duration: spinDuration * 2 } } :
+              onHover === 'pause' ? { rotate: 0 } :
+                onHover === 'goBonkers' ? { scale: 0.8, transition: { duration: spinDuration / 20 } } :
+                  {}
         }
       >
         {letters.map((letter, i) => {
@@ -36,7 +36,7 @@ const CircularTextPreview = ({
           const factor = Math.PI / letters.length;
           const x = factor * i;
           const y = factor * i;
-          
+
           return (
             <span
               key={i}
@@ -221,7 +221,7 @@ export default function CircularText() {
     <div className="space-y-6">
       <div>
         <label className="block text-sm font-medium mb-2 text-gray-300">Hover Behavior</label>
-        <select 
+        <select
           value={onHover}
           onChange={(e) => setOnHover(e.target.value as any)}
           className="w-full bg-white/5 border border-white/10 rounded-lg px-4 py-2.5 text-sm focus:outline-none focus:border-purple-500/50 transition-colors cursor-pointer hover:bg-white/10"

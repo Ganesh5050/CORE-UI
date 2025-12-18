@@ -22,7 +22,7 @@ const VariableProximityPreview = ({
         className="relative flex items-center justify-center min-h-[200px] py-8"
       >
         <VariableProximityComponent
-          label="Hover me! And then star React Bits on GitHub, or else..."
+          label="Hover me! And then star Core UI on GitHub, or else..."
           className="text-4xl text-center"
           fromFontVariationSettings="'wght' 400, 'opsz' 9"
           toFontVariationSettings="'wght' 1000, 'opsz' 40"
@@ -297,8 +297,8 @@ export default function VariableProximity() {
           <button
             onClick={() => setFalloff('linear')}
             className={`flex-1 px-4 py-3 rounded-lg text-sm font-medium transition-colors ${falloff === 'linear'
-                ? 'bg-purple-600 text-white'
-                : 'bg-white/5 text-gray-400 hover:bg-white/10'
+              ? 'bg-purple-600 text-white'
+              : 'bg-white/5 text-gray-400 hover:bg-white/10'
               }`}
           >
             linear
@@ -306,8 +306,8 @@ export default function VariableProximity() {
           <button
             onClick={() => setFalloff('exponential')}
             className={`flex-1 px-4 py-3 rounded-lg text-sm font-medium transition-colors ${falloff === 'exponential'
-                ? 'bg-purple-600 text-white'
-                : 'bg-white/5 text-gray-400 hover:bg-white/10'
+              ? 'bg-purple-600 text-white'
+              : 'bg-white/5 text-gray-400 hover:bg-white/10'
               }`}
           >
             exponential
@@ -315,8 +315,8 @@ export default function VariableProximity() {
           <button
             onClick={() => setFalloff('gaussian')}
             className={`flex-1 px-4 py-3 rounded-lg text-sm font-medium transition-colors ${falloff === 'gaussian'
-                ? 'bg-purple-600 text-white'
-                : 'bg-white/5 text-gray-400 hover:bg-white/10'
+              ? 'bg-purple-600 text-white'
+              : 'bg-white/5 text-gray-400 hover:bg-white/10'
               }`}
           >
             gaussian

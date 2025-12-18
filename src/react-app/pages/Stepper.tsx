@@ -19,7 +19,7 @@ const StepperPage = () => {
         >
           <Step>
             <div className="text-white">
-              <h2 className="text-xl font-bold mb-2">Welcome to the React Bits stepper!</h2>
+              <h2 className="text-xl font-bold mb-2">Welcome to the Core UI stepper!</h2>
               <p className="text-gray-400">Check out the next step!</p>
             </div>
           </Step>
