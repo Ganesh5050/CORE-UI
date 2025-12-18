@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: 'Figtree', system-ui, -apple-system, sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #060010;
+  color: #ffffff;
+  overflow-x: hidden;
+}
+
+@layer utilities {
+  .text-gradient {
+    background: linear-gradient(to right, #f97316, #fb923c, #fbbf24);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  .glow-orange {
+    box-shadow: 0 0 40px rgba(249, 115, 22, 0.4);
+  }
+
+  .glow-amber {
+    box-shadow: 0 0 40px rgba(251, 191, 36, 0.4);
+  }
+}

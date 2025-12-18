@@ -1,0 +1,27 @@
+{
+  "name": "Core UI",
+  "short_name": "Core UI",
+  "description": "Animated UI Components For React",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#060010",
+  "theme_color": "#060010",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "sizes": "16x16 32x32",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "/favicon-96x96.png",
+      "sizes": "96x96",
+      "type": "image/png"
+    },
+    {
+      "src": "/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
+  ]
+}
